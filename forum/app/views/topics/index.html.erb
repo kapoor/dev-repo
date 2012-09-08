@@ -13,7 +13,7 @@
 <% @topics.each do |topic| %>
   <tr>
     <td><%= topic.title %></td>
-    <td><%= topic.posted_on %></td>
+    <td><%= distance_of_time_in_words_to_now topic.posted_on %> ago</td>
     <td><%= topic.poster_id %></td>
     <td><%= link_to 'Show', topic %></td>
     <td><%= link_to 'Edit', edit_topic_path(topic) %></td>

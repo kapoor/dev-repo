@@ -1,0 +1,2548 @@
+Connecting to database specified by database.yml
+
+
+Started GET "/topics" for 127.0.0.1 at 2012-09-05 19:29:39 -0700
+Processing by TopicsController#index as HTML
+  [1m[36mTopic Load (0.2ms)[0m  [1mSELECT `topics`.* FROM `topics` [0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered topics/index.html.erb within layouts/application (8.7ms)
+Compiled forums.css  (14ms)  (pid 18784)
+Compiled posts.css  (3ms)  (pid 18784)
+Compiled scaffolds.css  (17ms)  (pid 18784)
+Compiled topics.css  (2ms)  (pid 18784)
+Compiled application.css  (119ms)  (pid 18784)
+Compiled jquery.js  (5ms)  (pid 18784)
+Compiled jquery_ujs.js  (0ms)  (pid 18784)
+Compiled forums.js  (139ms)  (pid 18784)
+Compiled posts.js  (95ms)  (pid 18784)
+Compiled topics.js  (127ms)  (pid 18784)
+Compiled application.js  (434ms)  (pid 18784)
+  Rendered devise/menu/_registration_items.html.erb (1.5ms)
+  Rendered devise/menu/_login_items.html.erb (1.2ms)
+Completed 200 OK in 876ms (Views: 801.7ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-05 19:29:40 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-05 19:29:40 -0700
+Served asset /forums.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-05 19:29:40 -0700
+Served asset /topics.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-05 19:29:40 -0700
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-05 19:29:40 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-05 19:29:40 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-05 19:29:40 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-05 19:29:40 -0700
+Served asset /forums.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-05 19:29:40 -0700
+Served asset /topics.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-05 19:29:40 -0700
+Served asset /posts.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-05 19:29:40 -0700
+Served asset /application.js - 304 Not Modified (8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/topics" for 127.0.0.1 at 2012-09-05 19:59:33 -0700
+Processing by TopicsController#index as HTML
+  [1m[36mTopic Load (0.2ms)[0m  [1mSELECT `topics`.* FROM `topics` [0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered topics/index.html.erb within layouts/application (18.2ms)
+  Rendered devise/menu/_registration_items.html.erb (1.0ms)
+  Rendered devise/menu/_login_items.html.erb (0.8ms)
+Completed 200 OK in 171ms (Views: 104.3ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-05 19:59:33 -0700
+Served asset /forums.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-05 19:59:33 -0700
+Served asset /topics.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-05 19:59:33 -0700
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-05 19:59:33 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-05 19:59:33 -0700
+Served asset /posts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-05 19:59:33 -0700
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-05 19:59:33 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-05 19:59:33 -0700
+Served asset /forums.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-05 19:59:33 -0700
+Served asset /posts.js - 304 Not Modified (73ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-05 19:59:33 -0700
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-05 19:59:33 -0700
+Served asset /topics.js - 304 Not Modified (1ms)
+
+
+Started GET "/topics" for 127.0.0.1 at 2012-09-05 20:00:01 -0700
+Processing by TopicsController#index as HTML
+  [1m[36mTopic Load (0.3ms)[0m  [1mSELECT `topics`.* FROM `topics` [0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered topics/index.html.erb within layouts/application (3.3ms)
+  Rendered devise/menu/_registration_items.html.erb (0.2ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:01 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:01 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:01 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:01 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:01 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:01 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:01 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:01 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:01 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:01 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:01 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-05 20:00:03 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1
+  Rendered topics/show.html.erb within layouts/application (111.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered devise/menu/_registration_items.html.erb (1.8ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 126ms (Views: 121.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:03 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:03 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:03 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:03 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:03 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:03 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:03 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:03 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:03 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:03 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:03 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-05 20:00:28 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.4ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1
+ERROR: compiling _app_views_topics_show_html_erb___788567607547977272_70169112933920 RAISED /Users/vishal/Desktop/my/workspace/my_dev/dev-repo/forum/app/views/topics/show.html.erb:14: syntax error, unexpected '<'
+...d>');@output_buffer.append= ( <%= distance_of_time_in_words_...
+...                               ^
+/Users/vishal/Desktop/my/workspace/my_dev/dev-repo/forum/app/views/topics/show.html.erb:15: syntax error, unexpected '(', expecting ')'
+...<td>');@output_buffer.append= ( @topic.poster_id );@output_b...
+...                               ^
+Function body:           def _app_views_topics_show_html_erb___788567607547977272_70169112933920(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "topics/show";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<p id="notice">');@output_buffer.append= ( notice );@output_buffer.safe_concat('</p>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Posted on</th>
+    <th>Posted by</th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <tr>
+    <td>');@output_buffer.append= ( @topic.title );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( <%= distance_of_time_in_words_to_now @topic.posted_on );@output_buffer.safe_concat(' ago</td>
+    <td>');@output_buffer.append= ( @topic.poster_id );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( link_to 'Edit', edit_topic_path(@topic) );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( link_to 'Destroy', @topic, method: :delete, data: { confirm: 'Are you sure?' } );@output_buffer.safe_concat('</td>
+  </tr>
+</table>
+
+
+<h2>Posts</h2>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Posted on</th>
+    <th>Posted by</th>
+    <th></th>
+    <th></th>
+  </tr>
+
+');   @topic.posts.each do |post| 
+@output_buffer.safe_concat('  <tr>
+    <td>');@output_buffer.append= ( post.text );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( post.posted_on );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( post.poster_id );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( link_to 'Edit', edit_post_path(post) );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } );@output_buffer.safe_concat('</td>
+  </tr>
+');   end 
+@output_buffer.safe_concat('
+</table>
+
+
+<b>Add a post</b>
+');@output_buffer.append=  form_for([@topic, @topic.posts.build]) do |f| @output_buffer.safe_concat('
+');@output_buffer.safe_concat('	<div class="field">
+	  ');@output_buffer.append= ( f.label :text );@output_buffer.safe_concat('<br />
+	  ');@output_buffer.append= ( f.text_field :text );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+	  ');@output_buffer.append= ( f.label :posted_on );@output_buffer.safe_concat('<br />
+	  ');@output_buffer.append= ( f.datetime_select :posted_on );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="field">
+	  ');@output_buffer.append= ( f.label :poster_id );@output_buffer.safe_concat('<br />
+	  ');@output_buffer.append= ( f.number_field :poster_id );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+	<div class="actions">
+	  ');@output_buffer.append= ( f.submit );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+'); end 
+@output_buffer.safe_concat('
+');@output_buffer.append= ( link_to 'Edit', edit_topic_path(@topic) );@output_buffer.safe_concat(' |
+');@output_buffer.append= ( link_to 'Back', topics_path );@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/vishal/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+/Users/vishal/Desktop/my/workspace/my_dev/dev-repo/forum/app/controllers/topics_controller.rb:22:in `show'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__112397504280056892__process_action__2540315363589432863__callbacks'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.1/lib/warden/manager.rb:35:in `block in call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.1/lib/warden/manager.rb:34:in `catch'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.1/lib/warden/manager.rb:34:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__1967972754164345430__call__3004296030842199982__callbacks'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/Users/vishal/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/vishal/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/vishal/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered topics/show.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (/Users/vishal/Desktop/my/workspace/my_dev/dev-repo/forum/app/views/topics/show.html.erb:14: syntax error, unexpected '<'
+...d>');@output_buffer.append= ( <%= distance_of_time_in_words_...
+...                               ^
+/Users/vishal/Desktop/my/workspace/my_dev/dev-repo/forum/app/views/topics/show.html.erb:15: syntax error, unexpected '(', expecting ')'
+...<td>');@output_buffer.append= ( @topic.poster_id );@output_b...
+...                               ^):
+    11: 
+    12:   <tr>
+    13:     <td><%= @topic.title %></td>
+    14:     <td><%= <%= distance_of_time_in_words_to_now @topic.posted_on %> ago</td>
+    15:     <td><%= @topic.poster_id %></td>
+    16:     <td><%= link_to 'Edit', edit_topic_path(@topic) %></td>
+    17:     <td><%= link_to 'Destroy', @topic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  app/controllers/topics_controller.rb:22:in `show'
+
+
+  Rendered /Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.9ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-05 20:00:35 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1
+  Rendered topics/show.html.erb within layouts/application (17.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered devise/menu/_registration_items.html.erb (1.8ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:35 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:35 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:35 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:35 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:35 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:35 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:35 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:35 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:35 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:35 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:35 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-05 20:00:56 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.3ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1[0m
+  Rendered topics/show.html.erb within layouts/application (18.2ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered devise/menu/_registration_items.html.erb (1.7ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 32ms (Views: 28.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:56 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:56 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:56 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:56 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:56 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:56 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:56 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:56 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-05 20:00:56 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:56 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-05 20:00:56 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-08 13:33:46 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (9.5ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1[0m
+  [1m[35mPost Load (1.0ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1
+  Rendered topics/show.html.erb within layouts/application (114.1ms)
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered devise/menu/_registration_items.html.erb (30.9ms)
+  Rendered devise/menu/_login_items.html.erb (0.9ms)
+Completed 200 OK in 341ms (Views: 243.8ms | ActiveRecord: 60.2ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:46 -0700
+Served asset /forums.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:46 -0700
+Served asset /posts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:46 -0700
+Served asset /topics.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:46 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:46 -0700
+Served asset /topics.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:46 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:47 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:47 -0700
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:47 -0700
+Served asset /forums.js - 304 Not Modified (46ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:47 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:47 -0700
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 13:33:51 -0700
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Processing by TopicsController#index as HTML
+  [1m[36mTopic Load (0.3ms)[0m  [1mSELECT `topics`.* FROM `topics` [0m
+  Rendered topics/index.html.erb within layouts/application (3.5ms)
+  Rendered devise/menu/_registration_items.html.erb (0.3ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:51 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:51 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:51 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:51 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:51 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:51 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:51 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:51 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:51 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-08 13:33:53 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.4ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1[0m
+  Rendered topics/show.html.erb within layouts/application (15.5ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered devise/menu/_registration_items.html.erb (1.5ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:53 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:53 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:53 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:53 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 13:33:53 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:53 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:53 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:53 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:53 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 13:33:53 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/2" for 127.0.0.1 at 2012-09-08 13:58:23 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTopic Load (0.3ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 LIMIT 1[0m
+  [1m[35mPost Load (0.4ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 2
+  Rendered topics/show.html.erb within layouts/application (11.9ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered devise/menu/_registration_items.html.erb (2.7ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 13:58:28 -0700
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Processing by TopicsController#index as HTML
+  [1m[36mTopic Load (0.2ms)[0m  [1mSELECT `topics`.* FROM `topics` [0m
+  Rendered topics/index.html.erb within layouts/application (2.5ms)
+  Rendered devise/menu/_registration_items.html.erb (0.2ms)
+  Rendered devise/menu/_login_items.html.erb (0.4ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:28 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:28 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:28 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:28 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:28 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:28 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:28 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:28 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:28 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:28 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:28 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-08 13:58:32 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.3ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1[0m
+  Rendered topics/show.html.erb within layouts/application (16.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered devise/menu/_registration_items.html.erb (1.8ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:32 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:32 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:32 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:32 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:32 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:32 -0700
+Served asset /forums.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:32 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:32 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:32 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:32 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-08 13:58:51 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.4ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.4ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1
+  Rendered topics/show.html.erb within layouts/application (13.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered devise/menu/_registration_items.html.erb (1.4ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:51 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:51 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:51 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 13:58:51 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:51 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:51 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:51 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 13:58:51 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-08 14:00:06 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.3ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1[0m
+  Rendered topics/show.html.erb within layouts/application (14.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered devise/menu/_registration_items.html.erb (1.5ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:00:06 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:00:06 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:00:06 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:00:07 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:00:07 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:00:07 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:00:07 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:00:07 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:00:07 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:00:07 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-08 14:02:46 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.4ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1
+  Rendered topics/show.html.erb within layouts/application (148.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered devise/menu/_registration_items.html.erb (32.1ms)
+  Rendered devise/menu/_login_items.html.erb (0.8ms)
+Completed 200 OK in 382ms (Views: 278.1ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:02:47 -0700
+Served asset /forums.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:02:47 -0700
+Served asset /posts.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:02:47 -0700
+Served asset /topics.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:02:47 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:02:47 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:02:47 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:02:47 -0700
+Served asset /forums.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:02:47 -0700
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:02:47 -0700
+Served asset /topics.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:02:47 -0700
+Served asset /application.js - 304 Not Modified (55ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-08 14:04:34 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.3ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1[0m
+  Rendered topics/show.html.erb within layouts/application (14.3ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered devise/menu/_registration_items.html.erb (1.8ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:04:34 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:04:34 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:04:34 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:04:34 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:04:34 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:04:34 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:04:34 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:04:34 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:04:34 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:04:34 -0700
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-08 14:04:48 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.4ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1
+  Rendered topics/show.html.erb within layouts/application (14.9ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered devise/menu/_registration_items.html.erb (2.2ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:04:48 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:04:48 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:04:48 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:04:48 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:04:48 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:04:48 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:04:48 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:04:48 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:04:48 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:04:48 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2012-09-08 14:05:02 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 14:05:02 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (46.6ms)
+  Rendered devise/menu/_registration_items.html.erb (0.7ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:02 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:03 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:03 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:03 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:03 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:03 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:03 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:03 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:03 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:03 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-09-08 14:05:04 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.4ms)
+  Rendered devise/menu/_registration_items.html.erb (0.5ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:04 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:04 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:04 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:04 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:04 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:04 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:04 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:04 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:04 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:04 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-09-08 14:05:16 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DQAiyVRIqaRq4XayDwBhEErOVOEjZFszmYkT65aYs1I=", "user"=>{"email"=>"kapoorvishal@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (2.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'kapoorvishal@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (8.7ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2012-09-08 21:05:16', `sign_in_count` = 2, `updated_at` = '2012-09-08 21:05:16' WHERE `users`.`id` = 1[0m
+  [1m[35m (82.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 240ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 14:05:16 -0700
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Processing by TopicsController#index as HTML
+  [1m[35mTopic Load (0.2ms)[0m  SELECT `topics`.* FROM `topics` 
+  Rendered topics/index.html.erb within layouts/application (4.5ms)
+  Rendered devise/menu/_registration_items.html.erb (1.3ms)
+  Rendered devise/menu/_login_items.html.erb (0.4ms)
+Completed 200 OK in 107ms (Views: 105.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:16 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:16 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:16 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:16 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:16 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:16 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:16 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:16 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:16 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:16 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-08 14:05:58 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.3ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1
+  Rendered topics/show.html.erb within layouts/application (13.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered devise/menu/_registration_items.html.erb (1.6ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:59 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:59 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:59 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:59 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:05:59 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:59 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:59 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:59 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:59 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:05:59 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/2" for 127.0.0.1 at 2012-09-08 14:06:15 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTopic Load (0.5ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 LIMIT 1
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 2[0m
+  Rendered topics/show.html.erb within layouts/application (14.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered devise/menu/_registration_items.html.erb (1.5ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:06:15 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:06:15 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:06:15 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:06:15 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:06:15 -0700
+Served asset /topics.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:06:15 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:06:15 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:06:15 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:06:15 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:06:15 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 14:35:21 -0700
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Processing by TopicsController#index as HTML
+  [1m[35mTopic Load (0.2ms)[0m  SELECT `topics`.* FROM `topics` 
+  Rendered topics/index.html.erb within layouts/application (14.7ms)
+  Rendered devise/menu/_registration_items.html.erb (1.1ms)
+  Rendered devise/menu/_login_items.html.erb (0.8ms)
+Completed 200 OK in 118ms (Views: 101.5ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:35:21 -0700
+Served asset /forums.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:35:21 -0700
+Served asset /posts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:35:21 -0700
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:35:21 -0700
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:35:21 -0700
+Served asset /topics.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:35:21 -0700
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:35:21 -0700
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:35:21 -0700
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:35:21 -0700
+Served asset /forums.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:35:21 -0700
+Served asset /topics.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:35:21 -0700
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-08 14:35:46 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.4ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1
+  Rendered topics/show.html.erb within layouts/application (91.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered devise/menu/_registration_items.html.erb (1.9ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 107ms (Views: 101.8ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:35:46 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:35:46 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:35:46 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:35:46 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:35:46 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:35:46 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:35:46 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:35:46 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2012-09-08 14:36:31 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.4ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 LIMIT 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 1[0m
+  Rendered topics/show.html.erb within layouts/application (14.2ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered devise/menu/_registration_items.html.erb (1.5ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:36:31 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:36:31 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:36:31 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:36:31 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:36:31 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:36:31 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:36:31 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:36:31 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2012-09-08 14:37:02 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 14:37:02 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered devise/menu/_registration_items.html.erb (0.7ms)
+  Rendered devise/menu/_login_items.html.erb (0.4ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:37:02 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:37:02 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:37:02 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:37:02 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:37:02 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:37:02 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:37:02 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:37:02 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2012-09-08 14:37:04 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.9ms)
+  Rendered devise/menu/_registration_items.html.erb (0.5ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:37:04 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:37:04 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:37:04 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:37:04 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:37:04 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:37:04 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:37:04 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:37:04 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-09-08 14:37:12 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IsRt2lxoK1ee1F1DV5GmpOi9lP9DZBVwoIUEcN01Wkw=", "user"=>{"email"=>"accounts@lifebook.co", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY 'accounts@lifebook.co' LIMIT 1[0m
+  [1m[35mSQL (4.6ms)[0m  INSERT INTO `users` (`created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `updated_at`) VALUES ('2012-09-08 21:37:13', NULL, NULL, 'accounts@lifebook.co', '$2a$10$grYSHpFVNIlZBO1gbZhxFu0ZRmz53sps6DaPqychNoKP3mHBh2NcG', NULL, NULL, NULL, NULL, NULL, 0, '2012-09-08 21:37:13')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.9ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2012-09-08 21:37:13', `current_sign_in_at` = '2012-09-08 21:37:13', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `updated_at` = '2012-09-08 21:37:13' WHERE `users`.`id` = 2[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 171ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 14:37:13 -0700
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Processing by TopicsController#index as HTML
+  [1m[35mTopic Load (0.4ms)[0m  SELECT `topics`.* FROM `topics` 
+  Rendered topics/index.html.erb within layouts/application (2.5ms)
+  Rendered devise/menu/_registration_items.html.erb (0.3ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:37:13 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:37:13 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:37:13 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:37:13 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:37:13 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:37:13 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:37:13 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:37:13 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (3.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to DeviseCreateUsers (20120903204558)
+Migrating to CreateTopics (20120905170407)
+Migrating to CreatePosts (20120905172743)
+Migrating to AddUsersToPost (20120908214640)
+  [1m[35m (1.5ms)[0m  ALTER TABLE `posts` ADD `id` int(11)
+Mysql2::Error: Duplicate column name 'id': ALTER TABLE `posts` ADD `id` int(11)
+Connecting to database specified by database.yml
+  [1m[36m (1.7ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to DeviseCreateUsers (20120903204558)
+Migrating to CreateTopics (20120905170407)
+Migrating to CreatePosts (20120905172743)
+Migrating to AddUsersToPost (20120908214640)
+  [1m[35m (0.3ms)[0m  ALTER TABLE `posts` ADD `id` int(11)
+Mysql2::Error: Duplicate column name 'id': ALTER TABLE `posts` ADD `id` int(11)
+Connecting to database specified by database.yml
+  [1m[36m (1.8ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to DeviseCreateUsers (20120903204558)
+Migrating to CreateTopics (20120905170407)
+Migrating to CreatePosts (20120905172743)
+Migrating to AddUsersToPost (20120908214640)
+  [1m[35m (125.7ms)[0m  ALTER TABLE `posts` ADD `user_id` int(11)
+  [1m[36m (1.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120908214640')[0m
+Migrating to AddUsersToTopic (20120908214652)
+  [1m[35m (204.3ms)[0m  ALTER TABLE `topics` ADD `user_id` int(11)
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120908214652')[0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+
+
+Started GET "/topics/new" for 127.0.0.1 at 2012-09-08 14:53:26 -0700
+Processing by TopicsController#new as HTML
+  Rendered topics/_form.html.erb (18.2ms)
+  Rendered topics/new.html.erb within layouts/application (24.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered devise/menu/_registration_items.html.erb (40.6ms)
+  Rendered devise/menu/_login_items.html.erb (0.8ms)
+Completed 200 OK in 207ms (Views: 137.6ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:53:26 -0700
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:53:26 -0700
+Served asset /forums.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:53:26 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:53:26 -0700
+Served asset /topics.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:53:26 -0700
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:53:26 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:53:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:53:26 -0700
+Served asset /forums.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:53:26 -0700
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:53:26 -0700
+Served asset /posts.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:53:26 -0700
+Served asset /topics.js - 304 Not Modified (5ms)
+
+
+Started POST "/topics" for 127.0.0.1 at 2012-09-08 14:53:36 -0700
+Processing by TopicsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IsRt2lxoK1ee1F1DV5GmpOi9lP9DZBVwoIUEcN01Wkw=", "topic"=>{"title"=>"Third topic", "posted_on(1i)"=>"2012", "posted_on(2i)"=>"9", "posted_on(3i)"=>"8", "posted_on(4i)"=>"21", "posted_on(5i)"=>"53", "poster_id"=>"1"}, "commit"=>"Create Topic"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO `topics` (`created_at`, `posted_on`, `poster_id`, `title`, `updated_at`, `user_id`) VALUES ('2012-09-08 21:53:36', '2012-09-08 21:53:00', 1, 'Third topic', '2012-09-08 21:53:36', NULL)[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/topics/3
+Completed 302 Found in 14ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/topics/3" for 127.0.0.1 at 2012-09-08 14:53:36 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTopic Load (0.4ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 3 LIMIT 1[0m
+  Rendered topics/show.html.erb within layouts/application (60.6ms)
+Completed 500 Internal Server Error in 65ms
+
+ActionView::Template::Error (undefined method `assert_valid_keys' for :user:Symbol):
+    29:     <th></th>
+    30:   </tr>
+    31: 
+    32:   <% @topic.posts.each do |post| %>
+    33:   <tr>
+    34:     <td><%= post.text %></td>
+    35:     <td><%= distance_of_time_in_words_to_now post.posted_on %> ago</td>
+  app/models/post.rb:2:in `<class:Post>'
+  app/models/post.rb:1:in `<top (required)>'
+  app/views/topics/show.html.erb:32:in `_app_views_topics_show_html_erb__4161795914008947935_70249726873180'
+  app/controllers/topics_controller.rb:22:in `show'
+
+
+  Rendered /Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/vishal/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/topics/3" for 127.0.0.1 at 2012-09-08 14:56:18 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTopic Load (0.2ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 3 LIMIT 1
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 3[0m
+  Rendered topics/show.html.erb within layouts/application (70.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered devise/menu/_registration_items.html.erb (29.8ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 124ms (Views: 104.9ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:18 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:18 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:18 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:18 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:18 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:18 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:18 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:18 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:18 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:18 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:18 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics" for 127.0.0.1 at 2012-09-08 14:56:26 -0700
+Processing by TopicsController#index as HTML
+  [1m[36mTopic Load (0.4ms)[0m  [1mSELECT `topics`.* FROM `topics` [0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered topics/index.html.erb within layouts/application (5.0ms)
+  Rendered devise/menu/_registration_items.html.erb (0.3ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 22ms (Views: 18.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:27 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:27 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:27 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:27 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:27 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:27 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:27 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:27 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:27 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:27 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:27 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2012-09-08 14:56:30 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35m (4.5ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 14:56:30 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered devise/menu/_registration_items.html.erb (0.7ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:31 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:31 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:31 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:31 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:31 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:31 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:31 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:31 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:31 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:31 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:31 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2012-09-08 14:56:32 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.6ms)
+  Rendered devise/menu/_registration_items.html.erb (0.5ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:32 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:32 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:32 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:32 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:32 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:32 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:32 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:32 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:32 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:32 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:32 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-09-08 14:56:37 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.0ms)
+  Rendered devise/menu/_registration_items.html.erb (0.6ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:37 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:37 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:37 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:37 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:37 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:37 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:37 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:37 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:37 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:37 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:37 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-09-08 14:56:45 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5mCH5BS8NP31lZnFCEuoU20IeY1sIFBVbqL3jCPIeWM=", "user"=>{"email"=>"kapoorvishal@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'kapoorvishal@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.9ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2012-09-08 21:05:16', `current_sign_in_at` = '2012-09-08 21:56:46', `sign_in_count` = 3, `updated_at` = '2012-09-08 21:56:46' WHERE `users`.`id` = 1
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 110ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 14:56:46 -0700
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Processing by TopicsController#index as HTML
+  [1m[36mTopic Load (0.2ms)[0m  [1mSELECT `topics`.* FROM `topics` [0m
+  Rendered topics/index.html.erb within layouts/application (3.7ms)
+  Rendered devise/menu/_registration_items.html.erb (0.2ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:46 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:46 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:46 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:46 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:46 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:46 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:46 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:46 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:46 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:46 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/topics/3" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Processing by TopicsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5mCH5BS8NP31lZnFCEuoU20IeY1sIFBVbqL3jCPIeWM=", "id"=>"3"}
+  [1m[35mTopic Load (0.3ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 3 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 3
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM `topics` WHERE `topics`.`id` = 3[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/topics
+Completed 302 Found in 6ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/topics" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Processing by TopicsController#index as HTML
+  [1m[36mTopic Load (0.3ms)[0m  [1mSELECT `topics`.* FROM `topics` [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered topics/index.html.erb within layouts/application (2.5ms)
+  Rendered devise/menu/_registration_items.html.erb (0.2ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:56:56 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  Rendered devise/menu/_registration_items.html.erb (0.4ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:05 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-09-08 14:57:06 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.8ms)
+  Rendered devise/menu/_registration_items.html.erb (0.9ms)
+  Rendered devise/menu/_login_items.html.erb (0.3ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:06 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:06 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:06 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:06 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:06 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:06 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:06 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:06 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:06 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:06 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:06 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PSRSz8zZ1G1Q3NY6FyRwrMfnmG5P+pNhzZXcYkI5HkA=", "user"=>{"email"=>"accounts@lifebook.co", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'accounts@lifebook.co' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.1ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2012-09-08 21:57:11', `sign_in_count` = 2, `updated_at` = '2012-09-08 21:57:11' WHERE `users`.`id` = 2
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 107ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Processing by TopicsController#index as HTML
+  [1m[36mTopic Load (0.2ms)[0m  [1mSELECT `topics`.* FROM `topics` [0m
+  Rendered topics/index.html.erb within layouts/application (2.4ms)
+  Rendered devise/menu/_registration_items.html.erb (0.2ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:11 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/2/edit" for 127.0.0.1 at 2012-09-08 14:57:13 -0700
+Processing by TopicsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTopic Load (0.4ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 LIMIT 1
+  Rendered topics/_form.html.erb (7.9ms)
+  Rendered topics/edit.html.erb within layouts/application (9.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered devise/menu/_registration_items.html.erb (1.9ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:13 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:13 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:13 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:13 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:13 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:13 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:13 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:13 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:13 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:13 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:13 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/new" for 127.0.0.1 at 2012-09-08 14:57:45 -0700
+Processing by TopicsController#new as HTML
+  Rendered topics/_form.html.erb (7.8ms)
+  Rendered topics/new.html.erb within layouts/application (9.0ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered devise/menu/_registration_items.html.erb (1.8ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:45 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:45 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:45 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:45 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:45 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:45 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:45 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:45 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:45 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:45 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:45 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/topics" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Processing by TopicsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PSRSz8zZ1G1Q3NY6FyRwrMfnmG5P+pNhzZXcYkI5HkA=", "topic"=>{"title"=>"Third topic", "posted_on(1i)"=>"2012", "posted_on(2i)"=>"9", "posted_on(3i)"=>"8", "posted_on(4i)"=>"21", "posted_on(5i)"=>"57", "poster_id"=>"1"}, "commit"=>"Create Topic"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `topics` (`created_at`, `posted_on`, `poster_id`, `title`, `updated_at`, `user_id`) VALUES ('2012-09-08 21:57:51', '2012-09-08 21:57:00', 1, 'Third topic', '2012-09-08 21:57:51', NULL)
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/topics/4
+Completed 302 Found in 6ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/topics/4" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mTopic Load (0.7ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 4 LIMIT 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`topic_id` = 4[0m
+  Rendered topics/show.html.erb within layouts/application (10.3ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered devise/menu/_registration_items.html.erb (1.6ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Served asset /forums.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Served asset /forums.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 14:57:51 -0700
+Served asset /application.js - 304 Not Modified (0ms)
